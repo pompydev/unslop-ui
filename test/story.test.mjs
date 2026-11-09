@@ -6,7 +6,7 @@ import { tmpdir } from "node:os";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
-const script = join(dirname(fileURLToPath(import.meta.url)), "..", "skills", "unslop", "scripts", "story.mjs");
+const script = join(dirname(fileURLToPath(import.meta.url)), "..", "skills", "unslop-ui", "scripts", "story.mjs");
 const STEPS_ERROR = /needs <meta name="unslop-steps"/;
 const FRAME_ERROR = /unslop-frame must be three numbers/;
 
