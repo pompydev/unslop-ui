@@ -4,7 +4,7 @@ import { mkdirSync, mkdtempSync, realpathSync, symlinkSync, writeFileSync } from
 import { tmpdir } from "node:os";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
-import { resolveStoryFile } from "../skills/unslop/scripts/story-path.mjs";
+import { resolveStoryFile } from "../skills/unslop-ui/scripts/story-path.mjs";
 
 // A root with a sibling whose name starts with the root's, the shape
 // the prefix check gets wrong: /tmp/x/site vs /tmp/x/site-private.

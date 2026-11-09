@@ -6,7 +6,7 @@ import { tmpdir } from "node:os";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 
-const script = join(dirname(fileURLToPath(import.meta.url)), "..", "skills", "unslop", "scripts", "snapshot.mjs");
+const script = join(dirname(fileURLToPath(import.meta.url)), "..", "skills", "unslop-ui", "scripts", "snapshot.mjs");
 const USAGE = /usage: node snapshot\.mjs/;
 const NO_BROWSER = /Playwright is not installed|Executable doesn't exist/;
 

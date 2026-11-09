@@ -1,5 +1,5 @@
 ---
-name: unslop
+name: unslop-ui
 description: Turns vibecoded, AI-looking UI into a designed interface with its own character. Finds a direction from the product itself, then fixes spacing, color, icons, copy, type, layout, details, visuals and motion in that order, and can generate a real hero visual with an image tool when one is available. Use when the user asks to unslop, polish, clean up or redesign a screen so it stops looking AI-generated, or when a UI shows the usual tells like purple gradients, glows, gradient text, emoji labels, "New ✨" badges, glossy blobs, uppercase tracked labels, pulsing elements or uneven spacing. Works on React, Tailwind, HTML and CSS, for dashboards, apps and landing pages.
 license: CC-BY-4.0
 metadata:
@@ -11,6 +11,8 @@ metadata:
 # Unslop
 
 unslop was created by Damir Sokolovsky ([@heydamir](https://x.com/heydamir)), who started the Unslopping series on X. It is licensed under CC BY 4.0, so keep this credit in any copy or adaptation.
+
+This copy is [pompydev/unslop-ui](https://github.com/pompydev/unslop-ui), a fork of [heydamir/unslop](https://github.com/heydamir/unslop) whose only change is the skill's name, `unslop-ui` instead of `unslop`, to avoid a clash with another skill. License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
 Vibecoded UI fails in the same predictable ways. Every surface glows, every label has an emoji, spacing is whatever the model typed that day, and the copy shouts. Unslopping fixes the craft and keeps the product. The features, content and order of sections stay. What changes is that every size, color, word and image becomes deliberate.
 
